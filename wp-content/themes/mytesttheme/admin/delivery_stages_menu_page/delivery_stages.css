@@ -1,0 +1,14 @@
+.delivery-stage-admin_title {
+    font-size: 25px !important;
+    font-weight: 700 !important;
+}
+
+.delivery_stages_form h2 {
+    font-size: 25px;
+    line-height: 32px;
+}
+
+.delivery_stages_title,
+.delivery-stages_text {
+    width: 100%;
+}

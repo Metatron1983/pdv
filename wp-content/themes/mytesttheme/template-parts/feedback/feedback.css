@@ -1,0 +1,238 @@
+.feedback {
+    margin-top: 140px;
+    margin-bottom: 40px;
+}
+
+.feedback_wrapper.container {
+    display: flex;
+}
+
+.feedback_left {
+    max-width: 699px;
+    width: 100%;
+    padding: 56px 64px 56px 56px;
+    background-color: #0b7572;
+}
+
+.feedback_title {
+    font-family: 'Exo2-Semibold', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.feedback_form {
+    margin-top: 57px;
+}
+
+.feedback_description {
+    width: 100%;
+    background-color: transparent;
+    font-family: "PTSans-Regular", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 48px;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    background-image: url(../../../../uploads/site_img/feedback/bacground_feedback.svg);
+    background-repeat: no-repeat;
+    background-position: 0px 44px;
+    resize: none;
+}
+
+.feedback_description::placeholder {
+    font-family: "PTSans-Regular", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.feedback_clip-file {
+    position: relative;
+    margin-top: 40px;
+    padding-bottom: 12px;
+    padding-left: 37px;
+}
+.feedback_brief-file {
+    display: block;
+    color: #FFFFFF;
+    font-family: "PTSans-Regular", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.feedback_brief-file-text {
+    margin-left: 16px;
+}
+
+.feedback_brief-file-img {
+    margin-left: -31px;
+}
+
+.feedback_img-btn {
+    position: relative;
+    font-family: "PTSans-Regular", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.feedback_clip-img {
+    position: relative;
+    margin-top: 33px;
+    padding-bottom: 12px;
+    padding-left: 37px;
+}
+
+.feedback_clip-img::after,
+.feedback_clip-file::after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    max-width: 579px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.feedback_clip-img .feedback_img-btn::before,
+.feedback_clip-file .feedback_img-btn::before {
+    position: absolute;
+    content: "";
+    height: 19px;
+    left: -37px;
+    top: 0;
+    background-position: 50%, 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.feedback_clip-img .feedback_img-btn::before {
+    width: 20px;
+    background-image: url(../../../../uploads/site_img/feedback/foto.svg);
+}
+
+.feedback_clip-file .feedback_img-btn::before {
+    width: 21px;
+    background-image: url(../../../../uploads/site_img/feedback/clip.svg);
+}
+
+.feedback_img-gallery {
+    justify-content: space-around;
+    margin-left: -40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    
+}
+.feedback_img-gallery-item {
+    display: inline-block;
+    width: 167px;
+    height: 136px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+
+.feedback_btn {
+    margin-top: 66px;
+    width: 206px;
+    height: 50px;
+    left: 156px;
+    top: 8582px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    font-family: 'Exo2-Semibold', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    color: #0B7572;
+    outline: none;
+    border: none;
+}
+
+.feedback_right {
+    max-width: 541px;
+    margin-left: auto;
+}
+
+.feedback_background {
+    max-height: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media(max-width: 1065px) {
+    .feedback_right {
+        display: none;
+    }
+    .feedback_left {
+        max-width: unset;
+    }
+    .feedback_description {
+        background-repeat: repeat-x;
+    }
+    
+    .feedback_clip-img::after,
+    .feedback_clip-file::after {
+        max-width: unset;
+    }
+
+}
+
+@media(max-width: 960px) {
+    .feedback_title {
+        font-size: 44px;
+        line-height: 55px;
+    }
+}
+
+@media(max-width: 700px) {
+    .feedback {
+        margin-top: 64px
+    }
+    .feedback_title {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .feedback_form {
+       margin-top: 41px;
+    }
+    .feedback_clip-file {
+        margin-top: 64px;
+    }
+    .feedback_left {
+        padding: 40px 16px 48px 16px;
+    }
+    .feedback_btn {
+        margin-top: 71px;
+    }
+}
+
+@media(max-width: 580px) {
+    .feedback_description {
+        font-size: 15px;
+        line-height: 48px;
+    }
+    
+    .feedback_description::placeholder {
+        font-size: 15px;
+        line-height: 48px;
+    }
+
+    .feedback_btn {
+        width: 100%;
+    }
+}

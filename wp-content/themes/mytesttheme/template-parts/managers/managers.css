@@ -1,0 +1,46 @@
+.managers {
+    margin-top: 123px;
+}
+.manager_list {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 24px;
+    grid-column-gap: 30px;
+}
+
+.managers_title {
+    font-family: 'Exo2-Semibold', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    color: #363738;
+}
+
+@media(max-width: 960px) {
+    .managers_title {
+        font-size: 44px;
+        line-height: 55px;
+    }   
+    .managers {
+        margin-top: 100px;
+    }
+    .manager_list {
+        margin-top: 44px;
+    }
+}
+
+@media(max-width: 700px) {
+    .managers_title {
+        font-size: 28px;
+        line-height: 35px;
+    }   
+    .managers {
+        margin-top: 64px;
+    }
+    .manager_list {
+        margin-top: 23px;
+        grid-template-columns: 1fr;
+        grid-row-gap: 14px;
+    }
+}

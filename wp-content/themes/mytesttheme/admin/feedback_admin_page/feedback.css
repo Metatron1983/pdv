@@ -1,0 +1,46 @@
+.feedback_title {
+    font-size: 25px !important;
+    font-weight: 700 !important;
+}
+
+.feedback_form h2 {
+    font-size: 25px;
+    line-height: 32px;
+}
+
+.feedback_title-field,
+.feedback_description-textbox,
+.feedback_description-add-file,
+.feedback_description-add-foto,
+.feedback_description-btn-submit {
+    width: 100%;
+}
+
+.feedback_img {
+    max-width: 200px;
+    max-height: 300px;
+}
+
+.feedback_img-btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 2.15384615;
+    min-height: 30px;
+    margin: 5px 0 0;
+    padding: 0 10px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    background: #2271b1;
+    border-color: #2271b1;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    text-align: center;
+    width: 154px;
+}

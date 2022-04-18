@@ -1,0 +1,109 @@
+/**
+*Theme Name: PDV
+*Author: Max
+* Author URI:  No
+* Description: Одностраничный сайт "Поставщики дальнего востока"
+* Version: 1.0
+*/
+
+@font-face {
+    font-family: 'Exo2-Semibold';
+    src: url('./assets/fonts/Exo2-SemiBold.woff2') format('woff2'),
+         url('./assets/fonts/Exo2-SemiBold.woff') format('woff');   
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PTSans-Bold';
+    src: url('./assets//fonts/PTSans-Bold.woff2') format('woff2'),
+         url('./assets/fonts/PTSans-Bold.woff') format('woff');
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PTSans-Regular";
+    src: url('./assets/fonts/PTSans-Regular.woff2') format('woff2'),
+         url('./assets/fonts/PTSans-Regular.woff') format('woff');
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+}
+
+
+*, 
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'PTSans-Regular', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    vertical-align: bottom;
+    color: inherit;
+}
+
+
+img,
+svg,
+span,
+picture {
+    vertical-align: bottom;
+}
+
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6,
+p {
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+}
+input {
+    vertical-align: middle;
+}
+
+.container {
+    max-width: 1270px;
+    padding: 0 15px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+@media(max-width: 960px){
+    .container {
+        padding: 0 39px;
+        width: 100%;
+    }   
+}
+
+@media(max-width: 580px){
+    .container {
+        padding: 0 15px;
+    }   
+}

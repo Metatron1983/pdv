@@ -1,0 +1,237 @@
+.main-banner{
+    width: 100%;
+    position: relative;
+    height: 787px;
+    padding: 100px 0 0;
+}
+
+.main-banner_bg{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.main-banner__bg__right {
+    max-width: 600px;
+    width: 100%;
+    margin-left: auto;
+    background-color:#0B7572;
+}
+.main-banner__bg__left {
+    flex-basis: auto;
+    background-color: #fff;  
+}
+
+.main-banner__content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+    margin: 0 auto;
+}
+
+.main-banner__textbox {
+    max-width: 600px;
+    margin-right: 5px;
+}
+.main-banner__title{
+    margin-top: 90px;
+    font-family: 'Exo2-Semibold', sans-serif;
+    font-weight: 600;
+    font-size: 52px;
+    color: #363738;
+    line-height: 65px;
+}
+
+.main-banner__text {
+    margin-top: 40px;
+    padding-right: 75px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6B6B6C;
+}
+.main-banner__text_mobile {
+    display: none;
+}
+
+.main-banner__link {
+    margin-top: 40px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #363738;
+    font-family: 'PTSans-Bold', sans-serif;
+    font-weight: 700;
+}
+
+.main-banner__link::after{
+    content: '';
+    display: block;
+    height: 3px;
+    background-color: #FFCE50;
+
+}
+
+.main-banner__picture{
+    max-height: 495px;
+}
+
+.main-banner__image {
+    object-fit: cover;
+    max-width: 635px;
+    width: 100%;
+    max-height: 505px;
+    height: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px 0 20px 20px;
+}
+
+@media (max-width:1275px) {
+    .main-banner{
+        padding: 55px 0 0;
+        height: 600px;
+    }
+
+    .main-banner__textbox {
+        max-width: 50%;
+        margin-right: 5px;
+    }
+    .main-banner__title{
+        margin-top: 40px;
+        font-size: 44px;
+        line-height: 55px;
+    }
+    
+    .main-banner__bg__right {
+        max-width: 450px;
+    }
+
+    .main-banner__picture{
+        max-height: 385px;
+    }
+    .main-banner__image {
+        max-width: 500px;
+        max-height: 391px;
+    }
+}
+
+@media(max-width: 1050px){
+    .main-banner__picture{
+        max-height: 355px;
+    }
+    .main-banner__image {
+        max-height: 360px;
+    }
+}
+
+@media(max-width: 960px){
+    .main-banner {
+        height: unset;
+        padding: 80px 0 0;
+    }
+    .main-banner__content {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .main-banner__textbox {
+        max-width: 76%;
+    }
+
+    .main-banner__title{
+        margin-top: 0;
+    }
+
+    .main-banner__text {
+        padding-right: 0;
+    }
+
+    .main-banner__link{
+        margin-top: 60px;
+    }
+
+    .main-banner__bg__right{
+        max-width: 23%;
+    }
+
+    .main-banner__picture {
+        max-height: none;
+    }
+    .main-banner__image {
+        margin-top: 56px;
+        max-height: unset;
+        max-width: unset;
+        height: unset;
+        border-radius: 15px 25px 0 15px;
+        box-shadow: unset;
+    }
+}
+
+@media(max-width: 768px){ 
+    .main-banner__image {
+       border-radius: 15px 17px 0 15px;
+    }
+}
+
+@media(max-width: 580px){ 
+    .main-banner {
+        padding: 75px 0 0;
+    }
+    .main-banner__title{
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .main-banner__text {
+        font-size: 15px;
+        line-height: 22px;
+        margin-top: 32px;
+    }
+
+    .main-banner__link{
+        font-size: 15px;
+        line-height: 22px;
+        margin-top: 32px;
+    }
+    .main-banner__image {
+        margin-top: 40px;
+    }
+}
+
+@media(max-width: 425px) {
+    .main-banner {
+        padding: 75px 0 181px;
+    }
+    .main-banner__bg__left {
+        display: none;
+    }
+    .main-banner__bg__right {
+        max-width: 100%;
+    }
+    .main-banner__textbox {
+        max-width: unset;
+        margin-right: 0;
+    }
+    .main-banner__text {
+        display: none;
+    }
+    .main-banner__title,
+    .main-banner__link{
+        color: #fff;
+    }
+    .main-banner__image {
+        border-radius: 20px;
+    }
+    .main-banner__text_mobile {
+        display: block;
+        margin-top: 32px;
+        font-size: 15px;
+        line-height: 22px;
+        color: #fff;
+        
+
+    }
+}

@@ -1,0 +1,51 @@
+.managers_title {
+    font-size: 25px !important;
+    font-weight: 700 !important;
+}
+
+.managers_admin_form h2 {
+    margin: 25px 0 0;
+}
+
+.managers_admin_form th,
+.managers_admin_form td {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.managers_admin_form th {
+    margin-top: 15px;
+}
+.managers_admin_form td {
+    margin-top: 5px;
+}
+
+.managers_admin_form input[type="text"] {
+    width: 100%;
+}
+
+.managers_admin_form label {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 2.15384615;
+    min-height: 30px;
+    margin: 5px 0 0;
+    padding: 0 10px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    background: #2271b1;
+    border-color: #2271b1;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    text-align: center;
+    width: 154px;
+}

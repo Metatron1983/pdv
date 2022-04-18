@@ -1,0 +1,79 @@
+.advantages-admin_title {
+    font-size: 25px !important;
+    font-weight: 700 !important;
+}
+
+.advantages-admin_form h2 {
+    font-size: 25px;
+    line-height: 32px;
+}
+
+.advantages-admin_form img {
+    display: block;
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin-top: 15px;
+    max-width: 1100px;
+}
+
+.services_form th, 
+.services_form td {
+    padding: 0 !important;
+    vertical-align: middle !important;
+    display: inline-block;
+    width: 100%; 
+}
+
+.services_form tr {
+    display: block;
+    margin-bottom: 15px;
+}
+
+
+.advantages-admin_banner-image,
+.advantages-admin_banner-image_tablet {
+    display: block;
+    margin-top: 10px;
+    width: 1040px;
+    height: 453px;
+    border: 1px solid #000;
+
+}
+
+.advantages-admin_banner-title,
+.advantages-admin-advantage-1_title,
+.advantages-admin-advantage-1_text,
+.advantages-admin-advantage-2_title,
+.advantages-admin-advantage-2_text,
+.advantages-admin-advantage-3_title,
+.advantages-admin-advantage-3_text,
+.advantages-admin-advantage-4_title,
+.advantages-admin-advantage-4_text {
+    max-width: 1043px;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.advantages-admin_banner-image-btn {
+    display: inline-block;
+    background: #2271b1;
+    border-color: #2271b1;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    padding: 0 10px;
+    border-radius: 3px;
+    line-height: 2;
+    min-height: 30px;
+    margin-top: 10px;
+}
+
+@media (max-width: 1470px) {
+    .advantages-admin_banner-image,
+    .advantages-admin_banner-image_tablet {
+    height: unset;
+    width: 100%;
+
+}
+}

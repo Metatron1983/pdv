@@ -1,0 +1,19 @@
+.contacts_title {
+    font-size: 25px !important;
+    font-weight: 700 !important;
+}
+
+.contacts th,
+.contacts td {
+    display: block;
+    padding-left: 0;
+}
+
+.contacts td {
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+.contacts_input {
+    width: 100%;
+}
